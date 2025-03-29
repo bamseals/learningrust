@@ -1,6 +1,10 @@
 #![allow(dead_code)]  // Suppresses dead code warnings
 #![warn(unused_variables)]  // Enables warnings for unused variables
 
+enum testEnum {
+    v123,
+    rweasr,
+}
 
 #[derive(Debug)]
 struct Rectangle {
